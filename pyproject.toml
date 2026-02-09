@@ -1,0 +1,11 @@
+[project]
+name = "reqs-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "furo>=2025.12.19",
+    "sphinx-needs[plotting]>=6.3.0",
+    "sphinxcontrib-plantuml>=0.31",
+]
