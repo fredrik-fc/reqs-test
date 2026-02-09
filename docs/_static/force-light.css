@@ -1,0 +1,7 @@
+:root {
+  color-scheme: light;
+}
+
+.theme-toggle-container {
+  display: none !important;
+}

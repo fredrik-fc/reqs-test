@@ -16,6 +16,15 @@ exclude_patterns = [
 ]
 
 html_theme = "furo"
+html_static_path = ["_static"]
+
+# Force light theme (Furo defaults to auto based on user preference).
+html_css_files = [
+    "force-light.css",
+]
+html_js_files = [
+    "force-light.js",
+]
 
 
 needs_types = [
